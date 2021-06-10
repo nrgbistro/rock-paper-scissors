@@ -1,10 +1,30 @@
 <!DOCTYPE html>
+<meta charset="UTF-8">
 
 <html>
-    <head>
-        <script src="rpsRunner.js"></script>
-    </head>
-    <body>
-
-    </body>
+<head>
+	<script defer src="rpsRunner.js" type="application/javascript"></script>
+	<link href="style.css" rel="stylesheet">
+	<title>Rock Paper Scissors</title>
+</head>
+<body>
+	<div class="gameContainer">
+		<div class="buttonContainer">
+			<button id="rock">Rock</button>
+			<button id="paper">Paper</button>
+			<button id="scissors">Scissors</button>
+		</div>
+		<div class="resultsContainer">
+			<h3>&nbsp;</h3>
+			<br>
+			<div id="scores">
+				<h1 id="playerScore">Player Score: 0</h1>
+				<h1 id="computerScore">Computer Score: 0</h1>
+			</div>
+		</div>
+		<div class="gameOver" style="text-align: center">
+			<h1></h1>
+		</div>
+	</div>
+</body>
 </html>
